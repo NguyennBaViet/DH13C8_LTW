@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài kiểm tra</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css">
+</head>
+<body>
+  <h2 align="center" class="m-3">BÀI KIỂM TRA</h2>
+  <table border="3px" align="center" style="border-radius: 15px;" cellpadding="10" cellspacing="2" class="rounded border-info" >
+    <tr>
+      <td colspan="4" style="color:rgba(83, 122, 231, 0.956)" align="center"><h4><b>ĐĂNG KÝ THAM GIA KHÓA HỌC</b></h4></td>
+    </tr>
+    <tr>
+      <td>Họ và Tên:</td>
+      <td colspan="3"><input type="text" name="hoten" placeholder="Nguyễn Bá Việt" class="form-control"></td>
+    </tr>
+    <tr>
+      <td>Địa chỉ:</td>
+      <td colspan="3"><input type="text" name="diachi" placeholder="Đường XYZ" class="form-control"></td>
+    </tr>
+    <tr>
+      <td>Số Điện Thoại:</td>
+      <td colspan="3"><input type="text" name="sdt" placeholder="0393800331" class="form-control"></td>
+    </tr>
+    <tr>
+      <td>Số CCCD:</td>
+      <td colspan="3"><input type="text" name="cccd" placeholder="231154487545" class="form-control"></td>
+    </tr>
+    <tr>
+      <td>Khóa Học:</td>
+      <td>
+        <select name="khoahoc" class="form-select">
+          <option>Lập Trình Web</option>
+          <option>Lập Trình Java</option>
+          <option>Lập Trình Python</option>
+        </select>
+      </td>
+    </tr>
+    <tr>
+      <td>Giới Tính:</td>
+      <td>
+        <input type="radio" name="gioitinh" value="Nam"> Nam
+        <input type="radio" name="gioitinh" value="Nữ"> Nữ
+      </td>
+    </tr>
+    <tr>
+      <td>Đối Tượng Ưu Tiên:</td>
+      <td>
+        <input type="checkbox" name="uutien" id="uutien">
+      </td>
+    </tr>
+    <tr>
+      <td>Tuổi:</td>
+      <td><input type="number" name="tuoi" placeholder="25" class="form-control"></td>
+      <td>Học Phí:</td>
+      <td><input type="text" name="hocphi" class="form-control"></td>
+    </tr>
+    <tr>
+      <td colspan="4" align="center" >
+        <button type="submit" class="btn btn-success">Tính Học Phí</button>
+        <button type="reset" class="btn btn-warning">Làm Mới</button>
+        <button type="button" class="btn btn-danger" onclick="window.close()">Thoát</button>
+      </td>
+    </tr>
+  </table>
+</body>
+</html>
